@@ -37,6 +37,7 @@ public class PropertyTest
         property1.toString();
     }
 
+    //metodo testToString nivel2
     @Test
     public void testToString(){
         Property property1 = new Property("T3 Monte Belo", 150000.0);
