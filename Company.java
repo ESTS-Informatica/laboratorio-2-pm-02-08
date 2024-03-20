@@ -24,6 +24,10 @@ public class Company {
      * Constructor of class Company
      */
     public Company() {
+this.clients = new ArrayList<>();
+this.sellers = new ArrayList<>();
+this.properties = new ArrayList<>();
+this.sells = new ArrayList<>();
 
     }
 
@@ -32,7 +36,7 @@ public class Company {
      *
      * @return This company clients.
      */
-    public List<User> getClients() {
+    public List<User> addClients() {
         return null;         // dummy implementation
     }
 
