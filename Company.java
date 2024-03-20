@@ -24,10 +24,10 @@ public class Company {
      * Constructor of class Company
      */
     public Company() {
-this.clients = new ArrayList<>();
-this.sellers = new ArrayList<>();
-this.properties = new ArrayList<>();
-this.sells = new ArrayList<>();
+        this.clients = new ArrayList<>();
+        this.sellers = new ArrayList<>();
+        this.properties = new ArrayList<>();
+        this.sells = new ArrayList<>();
 
     }
 
@@ -36,8 +36,11 @@ this.sells = new ArrayList<>();
      *
      * @return This company clients.
      */
-    public List<User> addClients() {
-        return null;         // dummy implementation
+    public List<User> getClients() {
+        return clients;         // dummy implementation
+    }
+    public void setClients(){
+        this.clients = clients;
     }
 
     /**
@@ -46,7 +49,10 @@ this.sells = new ArrayList<>();
      * @return This company sellers.
      */
     public List<User> getSellers() {
-        return null;         // dummy implementation
+        return sellers;         // dummy implementation
+    }
+    public void setSellers(){
+        this.sellers = sellers;
     }
 
     /**
@@ -55,7 +61,10 @@ this.sells = new ArrayList<>();
      * @return This company's properties.
      */
     public List<Property> getProperties() {
-        return null;         // dummy implementation
+        return properties;         // dummy implementation
+    }
+    public void setProperties(){
+        this.properties = properties;
     }
 
     /**
@@ -64,7 +73,7 @@ this.sells = new ArrayList<>();
      * @return This company sells.
      */
     public List<Sell> getSells() {
-        return null;         // dummy implementation
+        return this.sells;         // dummy implementation
     }
 
     /**
